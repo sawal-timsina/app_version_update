@@ -10,11 +10,11 @@ class AppVersionResult {
       {this.storeVersion,
       this.storeUrl,
       this.platform,
-      this.canUpdate,
+      this.canUpdate = false,
       this.appleId,
       this.playStoreId});
   String? storeVersion, storeUrl, appleId, playStoreId;
-  bool? canUpdate = false;
+  bool canUpdate;
 
   TargetPlatform? platform;
 
