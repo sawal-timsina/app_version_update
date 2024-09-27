@@ -28,8 +28,7 @@ Future<AppVersionData> fetchVersion(
   } else {
     throw "Unknown platform";
   }
-  // data.canUpdate = await convertVersion(
-  //     version: data.localVersion, versionStore: data.storeVersion);
+
   return data;
 }
 
