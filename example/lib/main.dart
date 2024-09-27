@@ -45,46 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
         return true;
       },
     );
-    print("data: ${data.toString()}");
-    // .then((result) async {
-    //   if (result.canUpdate!) {
-    //     // await AppVersionUpdate.showBottomSheetUpdate(context: context, appVersionResult: appVersionResult)
-    //     // await AppVersionUpdate.showPageUpdate(context: context, appVersionResult: appVersionResult)
-    //     // or use your own widget with information received from AppVersionResult
 
-    //     //##############################################################################################
-    //     await AppVersionUpdate.showAlertUpdate(
-    //       appVersionResult: result,
-    //       context: context,
-    //       backgroundColor: Colors.grey[200],
-    //       title: 'Uma versão mais recente está disponível.',
-    //       titleTextStyle: const TextStyle(
-    //           color: Colors.black, fontWeight: FontWeight.w600, fontSize: 24.0),
-    //       content:
-    //           'Gostaria de atualizar seu aplicativo para a versão mais recente?',
-    //       contentTextStyle: const TextStyle(
-    //         color: Colors.black,
-    //         fontWeight: FontWeight.w400,
-    //       ),
-    //       updateButtonText: 'ATUALIZAR',
-    //       cancelButtonText: 'DEPOIS',
-    //     );
-
-    //     //## AppVersionUpdate.showBottomSheetUpdate ##
-    //     // await AppVersionUpdate.showBottomSheetUpdate(
-    //     //   context: context,
-    //     //   mandatory: true,
-    //     //   appVersionResult: result,
-    //     // );
-
-    //     //## AppVersionUpdate.showPageUpdate ##
-
-    //     // await AppVersionUpdate.showPageUpdate(
-    //     //   context: context,
-    //     //   appVersionResult: result,
-    //     // );
-    //   }
-    // });
     // TODO: implement initState
   }
 
