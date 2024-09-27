@@ -32,10 +32,12 @@ class AppVersionUpdate {
       country: country,
     );
 
-    data.canUpdate = versionChecker(
-      localVersion: data.localVersion,
-      storeVersion: data.storeVersion,
-    );
+    data.canUpdate = (data.localVersion == null || data.storeVersion == null)
+        ? false
+        : versionChecker(
+            localVersion: data.localVersion!,
+            storeVersion: data.storeVersion!,
+          );
 
     return AppVersionResult(
         appleId: appleId,
